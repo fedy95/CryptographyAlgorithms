@@ -1,0 +1,12 @@
+e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\bin\Debug\CryptographyAlgorithms.exe.config
+e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyAlgorithms.exe
+e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyAlgorithms.pdb
+e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\bin\Debug\CryptographyAlgorithms.exe
+e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\bin\Debug\CryptographyAlgorithms.pdb
+e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyAlgorithms.csprojResolveAssemblyReference.cache
+e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyAlgorithms.ElgamalDecryption.resources
+e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyAlgorithms.ElgamalEncryption.resources
+e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyAlgorithms.ElgamalKeyGeneration.resources
+e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyAlgorithms.Properties.Resources.resources
+e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyAlgorithms.StartForm.resources
+e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyAlgorithms.csproj.GenerateResource.Cache

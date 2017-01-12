@@ -1,5 +1,5 @@
-Target framework: .NET Framework 4.5.2
---------------------------------------------------------
+//Target framework: .NET Framework 4.5.2
+
 Encryption/decryption with using cryptography algorithms
 
 Already was realized ElGamal.

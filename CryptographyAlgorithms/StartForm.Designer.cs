@@ -65,7 +65,7 @@
             this.EncryptionToolStripMenuItem,
             this.DecryptionToolStripMenuItem});
             this.elGamalToolStripMenuItem.Name = "elGamalToolStripMenuItem";
-            this.elGamalToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.elGamalToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.elGamalToolStripMenuItem.Text = "ElGamal";
             // 
             // KeyGenerationToolStripMenuItem

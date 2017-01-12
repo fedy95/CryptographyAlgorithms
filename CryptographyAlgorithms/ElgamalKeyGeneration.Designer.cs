@@ -47,12 +47,13 @@
             this.DecryptionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.InfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutCryptographyAlgorithmsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.LabelNameForm = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // TextBoxSimpleNumber
             // 
-            this.TextBoxSimpleNumber.Location = new System.Drawing.Point(15, 54);
+            this.TextBoxSimpleNumber.Location = new System.Drawing.Point(15, 73);
             this.TextBoxSimpleNumber.Name = "TextBoxSimpleNumber";
             this.TextBoxSimpleNumber.Size = new System.Drawing.Size(100, 20);
             this.TextBoxSimpleNumber.TabIndex = 0;
@@ -60,7 +61,7 @@
             // LabelSimpleNumber
             // 
             this.LabelSimpleNumber.AutoSize = true;
-            this.LabelSimpleNumber.Location = new System.Drawing.Point(12, 38);
+            this.LabelSimpleNumber.Location = new System.Drawing.Point(12, 57);
             this.LabelSimpleNumber.Name = "LabelSimpleNumber";
             this.LabelSimpleNumber.Size = new System.Drawing.Size(74, 13);
             this.LabelSimpleNumber.TabIndex = 1;
@@ -69,7 +70,7 @@
             // LabelPrimitiveRootOfTheSimpleNumber
             // 
             this.LabelPrimitiveRootOfTheSimpleNumber.AutoSize = true;
-            this.LabelPrimitiveRootOfTheSimpleNumber.Location = new System.Drawing.Point(12, 84);
+            this.LabelPrimitiveRootOfTheSimpleNumber.Location = new System.Drawing.Point(12, 103);
             this.LabelPrimitiveRootOfTheSimpleNumber.Name = "LabelPrimitiveRootOfTheSimpleNumber";
             this.LabelPrimitiveRootOfTheSimpleNumber.Size = new System.Drawing.Size(166, 13);
             this.LabelPrimitiveRootOfTheSimpleNumber.TabIndex = 2;
@@ -77,7 +78,7 @@
             // 
             // TextBoxPrimitiveRootOfTheSimpleNumber
             // 
-            this.TextBoxPrimitiveRootOfTheSimpleNumber.Location = new System.Drawing.Point(15, 100);
+            this.TextBoxPrimitiveRootOfTheSimpleNumber.Location = new System.Drawing.Point(15, 119);
             this.TextBoxPrimitiveRootOfTheSimpleNumber.Name = "TextBoxPrimitiveRootOfTheSimpleNumber";
             this.TextBoxPrimitiveRootOfTheSimpleNumber.Size = new System.Drawing.Size(100, 20);
             this.TextBoxPrimitiveRootOfTheSimpleNumber.TabIndex = 3;
@@ -85,7 +86,7 @@
             // LabelAnySimpleNumber
             // 
             this.LabelAnySimpleNumber.AutoSize = true;
-            this.LabelAnySimpleNumber.Location = new System.Drawing.Point(12, 130);
+            this.LabelAnySimpleNumber.Location = new System.Drawing.Point(12, 149);
             this.LabelAnySimpleNumber.Name = "LabelAnySimpleNumber";
             this.LabelAnySimpleNumber.Size = new System.Drawing.Size(207, 13);
             this.LabelAnySimpleNumber.TabIndex = 4;
@@ -93,7 +94,7 @@
             // 
             // TextBoxAnySimpleNumber
             // 
-            this.TextBoxAnySimpleNumber.Location = new System.Drawing.Point(15, 146);
+            this.TextBoxAnySimpleNumber.Location = new System.Drawing.Point(15, 165);
             this.TextBoxAnySimpleNumber.Name = "TextBoxAnySimpleNumber";
             this.TextBoxAnySimpleNumber.Size = new System.Drawing.Size(100, 20);
             this.TextBoxAnySimpleNumber.TabIndex = 5;
@@ -101,7 +102,7 @@
             // labePublicKey
             // 
             this.labePublicKey.AutoSize = true;
-            this.labePublicKey.Location = new System.Drawing.Point(17, 226);
+            this.labePublicKey.Location = new System.Drawing.Point(17, 245);
             this.labePublicKey.Name = "labePublicKey";
             this.labePublicKey.Size = new System.Drawing.Size(69, 13);
             this.labePublicKey.TabIndex = 6;
@@ -110,7 +111,7 @@
             // LabelSecretKey
             // 
             this.LabelSecretKey.AutoSize = true;
-            this.LabelSecretKey.Location = new System.Drawing.Point(12, 248);
+            this.LabelSecretKey.Location = new System.Drawing.Point(12, 267);
             this.LabelSecretKey.Name = "LabelSecretKey";
             this.LabelSecretKey.Size = new System.Drawing.Size(74, 13);
             this.LabelSecretKey.TabIndex = 7;
@@ -119,7 +120,7 @@
             // LabelPublicKeyOutput
             // 
             this.LabelPublicKeyOutput.AutoSize = true;
-            this.LabelPublicKeyOutput.Location = new System.Drawing.Point(105, 226);
+            this.LabelPublicKeyOutput.Location = new System.Drawing.Point(105, 245);
             this.LabelPublicKeyOutput.Name = "LabelPublicKeyOutput";
             this.LabelPublicKeyOutput.Size = new System.Drawing.Size(0, 13);
             this.LabelPublicKeyOutput.TabIndex = 8;
@@ -127,14 +128,14 @@
             // LabelSecretKeyOutput
             // 
             this.LabelSecretKeyOutput.AutoSize = true;
-            this.LabelSecretKeyOutput.Location = new System.Drawing.Point(105, 248);
+            this.LabelSecretKeyOutput.Location = new System.Drawing.Point(105, 267);
             this.LabelSecretKeyOutput.Name = "LabelSecretKeyOutput";
             this.LabelSecretKeyOutput.Size = new System.Drawing.Size(0, 13);
             this.LabelSecretKeyOutput.TabIndex = 9;
             // 
             // ButtonСalculate
             // 
-            this.ButtonСalculate.Location = new System.Drawing.Point(13, 189);
+            this.ButtonСalculate.Location = new System.Drawing.Point(13, 208);
             this.ButtonСalculate.Name = "ButtonСalculate";
             this.ButtonСalculate.Size = new System.Drawing.Size(75, 23);
             this.ButtonСalculate.TabIndex = 10;
@@ -168,7 +169,7 @@
             this.EncryptionToolStripMenuItem,
             this.DecryptionToolStripMenuItem});
             this.elGamalToolStripMenuItem.Name = "elGamalToolStripMenuItem";
-            this.elGamalToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.elGamalToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.elGamalToolStripMenuItem.Text = "ElGamal";
             // 
             // KeyGenerationToolStripMenuItem
@@ -206,11 +207,22 @@
             this.AboutCryptographyAlgorithmsToolStripMenuItem.Text = "About Cryptography Algorithms";
             this.AboutCryptographyAlgorithmsToolStripMenuItem.Click += new System.EventHandler(this.AboutCryptographyAlgorithmsToolStripMenuItem_Click);
             // 
+            // LabelNameForm
+            // 
+            this.LabelNameForm.AutoSize = true;
+            this.LabelNameForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelNameForm.Location = new System.Drawing.Point(68, 28);
+            this.LabelNameForm.Name = "LabelNameForm";
+            this.LabelNameForm.Size = new System.Drawing.Size(183, 18);
+            this.LabelNameForm.TabIndex = 14;
+            this.LabelNameForm.Text = "Elgamal key generation";
+            // 
             // ElgamalKeyGeneration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(342, 280);
+            this.ClientSize = new System.Drawing.Size(342, 292);
+            this.Controls.Add(this.LabelNameForm);
             this.Controls.Add(this.ButtonСalculate);
             this.Controls.Add(this.LabelSecretKeyOutput);
             this.Controls.Add(this.LabelPublicKeyOutput);
@@ -254,6 +266,7 @@
         private System.Windows.Forms.ToolStripMenuItem DecryptionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem InfoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem AboutCryptographyAlgorithmsToolStripMenuItem;
+        private System.Windows.Forms.Label LabelNameForm;
     }
 }
 

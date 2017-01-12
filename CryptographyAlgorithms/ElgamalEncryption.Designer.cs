@@ -51,6 +51,7 @@
             this.TextBoxSessionKey = new System.Windows.Forms.TextBox();
             this.LabelSessionKey = new System.Windows.Forms.Label();
             this.CheckBoxSessionKey = new System.Windows.Forms.CheckBox();
+            this.LabelNameForm = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,7 +81,7 @@
             this.EncryptionToolStripMenuItem,
             this.DecryptionToolStripMenuItem});
             this.elgamalToolStripMenuItem.Name = "elgamalToolStripMenuItem";
-            this.elgamalToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.elgamalToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.elgamalToolStripMenuItem.Text = "Elgamal";
             // 
             // KeyGenerationToolStripMenuItem
@@ -121,7 +122,7 @@
             // LabelMessage
             // 
             this.LabelMessage.AutoSize = true;
-            this.LabelMessage.Location = new System.Drawing.Point(12, 38);
+            this.LabelMessage.Location = new System.Drawing.Point(12, 57);
             this.LabelMessage.Name = "LabelMessage";
             this.LabelMessage.Size = new System.Drawing.Size(226, 13);
             this.LabelMessage.TabIndex = 1;
@@ -129,7 +130,7 @@
             // 
             // TextBoxMessage
             // 
-            this.TextBoxMessage.Location = new System.Drawing.Point(15, 55);
+            this.TextBoxMessage.Location = new System.Drawing.Point(15, 74);
             this.TextBoxMessage.Name = "TextBoxMessage";
             this.TextBoxMessage.Size = new System.Drawing.Size(100, 20);
             this.TextBoxMessage.TabIndex = 2;
@@ -137,7 +138,7 @@
             // LabelPublicKey
             // 
             this.LabelPublicKey.AutoSize = true;
-            this.LabelPublicKey.Location = new System.Drawing.Point(12, 84);
+            this.LabelPublicKey.Location = new System.Drawing.Point(12, 103);
             this.LabelPublicKey.Name = "LabelPublicKey";
             this.LabelPublicKey.Size = new System.Drawing.Size(55, 13);
             this.LabelPublicKey.TabIndex = 3;
@@ -146,7 +147,7 @@
             // LabelFirstPartOfThePublicKey
             // 
             this.LabelFirstPartOfThePublicKey.AutoSize = true;
-            this.LabelFirstPartOfThePublicKey.Location = new System.Drawing.Point(53, 104);
+            this.LabelFirstPartOfThePublicKey.Location = new System.Drawing.Point(53, 123);
             this.LabelFirstPartOfThePublicKey.Name = "LabelFirstPartOfThePublicKey";
             this.LabelFirstPartOfThePublicKey.Size = new System.Drawing.Size(44, 13);
             this.LabelFirstPartOfThePublicKey.TabIndex = 4;
@@ -155,7 +156,7 @@
             // LabelSecondPartOfThePublicKey
             // 
             this.LabelSecondPartOfThePublicKey.AutoSize = true;
-            this.LabelSecondPartOfThePublicKey.Location = new System.Drawing.Point(34, 133);
+            this.LabelSecondPartOfThePublicKey.Location = new System.Drawing.Point(34, 152);
             this.LabelSecondPartOfThePublicKey.Name = "LabelSecondPartOfThePublicKey";
             this.LabelSecondPartOfThePublicKey.Size = new System.Drawing.Size(63, 13);
             this.LabelSecondPartOfThePublicKey.TabIndex = 5;
@@ -164,7 +165,7 @@
             // LabelThirdPartOfThePublicKey
             // 
             this.LabelThirdPartOfThePublicKey.AutoSize = true;
-            this.LabelThirdPartOfThePublicKey.Location = new System.Drawing.Point(49, 162);
+            this.LabelThirdPartOfThePublicKey.Location = new System.Drawing.Point(49, 181);
             this.LabelThirdPartOfThePublicKey.Name = "LabelThirdPartOfThePublicKey";
             this.LabelThirdPartOfThePublicKey.Size = new System.Drawing.Size(48, 13);
             this.LabelThirdPartOfThePublicKey.TabIndex = 6;
@@ -172,21 +173,21 @@
             // 
             // TextBoxFirstPartOfThePublicKey
             // 
-            this.TextBoxFirstPartOfThePublicKey.Location = new System.Drawing.Point(104, 101);
+            this.TextBoxFirstPartOfThePublicKey.Location = new System.Drawing.Point(104, 120);
             this.TextBoxFirstPartOfThePublicKey.Name = "TextBoxFirstPartOfThePublicKey";
             this.TextBoxFirstPartOfThePublicKey.Size = new System.Drawing.Size(100, 20);
             this.TextBoxFirstPartOfThePublicKey.TabIndex = 7;
             // 
             // TextBoxSecondPartOfThePublicKey
             // 
-            this.TextBoxSecondPartOfThePublicKey.Location = new System.Drawing.Point(104, 130);
+            this.TextBoxSecondPartOfThePublicKey.Location = new System.Drawing.Point(104, 149);
             this.TextBoxSecondPartOfThePublicKey.Name = "TextBoxSecondPartOfThePublicKey";
             this.TextBoxSecondPartOfThePublicKey.Size = new System.Drawing.Size(100, 20);
             this.TextBoxSecondPartOfThePublicKey.TabIndex = 8;
             // 
             // TextBoxThirdPartOfThePublicKey
             // 
-            this.TextBoxThirdPartOfThePublicKey.Location = new System.Drawing.Point(104, 159);
+            this.TextBoxThirdPartOfThePublicKey.Location = new System.Drawing.Point(104, 178);
             this.TextBoxThirdPartOfThePublicKey.Name = "TextBoxThirdPartOfThePublicKey";
             this.TextBoxThirdPartOfThePublicKey.Size = new System.Drawing.Size(100, 20);
             this.TextBoxThirdPartOfThePublicKey.TabIndex = 9;
@@ -194,7 +195,7 @@
             // LabelCiphertext
             // 
             this.LabelCiphertext.AutoSize = true;
-            this.LabelCiphertext.Location = new System.Drawing.Point(10, 313);
+            this.LabelCiphertext.Location = new System.Drawing.Point(10, 332);
             this.LabelCiphertext.Name = "LabelCiphertext";
             this.LabelCiphertext.Size = new System.Drawing.Size(75, 13);
             this.LabelCiphertext.TabIndex = 10;
@@ -202,7 +203,7 @@
             // 
             // ButtonEncryption
             // 
-            this.ButtonEncryption.Location = new System.Drawing.Point(13, 276);
+            this.ButtonEncryption.Location = new System.Drawing.Point(13, 295);
             this.ButtonEncryption.Name = "ButtonEncryption";
             this.ButtonEncryption.Size = new System.Drawing.Size(75, 23);
             this.ButtonEncryption.TabIndex = 11;
@@ -213,14 +214,14 @@
             // LabelCiphertextOutput
             // 
             this.LabelCiphertextOutput.AutoSize = true;
-            this.LabelCiphertextOutput.Location = new System.Drawing.Point(98, 313);
+            this.LabelCiphertextOutput.Location = new System.Drawing.Point(98, 332);
             this.LabelCiphertextOutput.Name = "LabelCiphertextOutput";
             this.LabelCiphertextOutput.Size = new System.Drawing.Size(0, 13);
             this.LabelCiphertextOutput.TabIndex = 12;
             // 
             // TextBoxSessionKey
             // 
-            this.TextBoxSessionKey.Location = new System.Drawing.Point(15, 208);
+            this.TextBoxSessionKey.Location = new System.Drawing.Point(15, 227);
             this.TextBoxSessionKey.Name = "TextBoxSessionKey";
             this.TextBoxSessionKey.Size = new System.Drawing.Size(100, 20);
             this.TextBoxSessionKey.TabIndex = 13;
@@ -228,7 +229,7 @@
             // LabelSessionKey
             // 
             this.LabelSessionKey.AutoSize = true;
-            this.LabelSessionKey.Location = new System.Drawing.Point(12, 192);
+            this.LabelSessionKey.Location = new System.Drawing.Point(12, 211);
             this.LabelSessionKey.Name = "LabelSessionKey";
             this.LabelSessionKey.Size = new System.Drawing.Size(62, 13);
             this.LabelSessionKey.TabIndex = 14;
@@ -237,18 +238,29 @@
             // CheckBoxSessionKey
             // 
             this.CheckBoxSessionKey.AutoSize = true;
-            this.CheckBoxSessionKey.Location = new System.Drawing.Point(15, 234);
+            this.CheckBoxSessionKey.Location = new System.Drawing.Point(15, 253);
             this.CheckBoxSessionKey.Name = "CheckBoxSessionKey";
             this.CheckBoxSessionKey.Size = new System.Drawing.Size(119, 17);
             this.CheckBoxSessionKey.TabIndex = 15;
             this.CheckBoxSessionKey.Text = "random session key";
             this.CheckBoxSessionKey.UseVisualStyleBackColor = true;
             // 
+            // LabelNameForm
+            // 
+            this.LabelNameForm.AutoSize = true;
+            this.LabelNameForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelNameForm.Location = new System.Drawing.Point(68, 28);
+            this.LabelNameForm.Name = "LabelNameForm";
+            this.LabelNameForm.Size = new System.Drawing.Size(151, 18);
+            this.LabelNameForm.TabIndex = 16;
+            this.LabelNameForm.Text = "Elgamal encryption";
+            // 
             // ElgamalEncryption
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(342, 336);
+            this.ClientSize = new System.Drawing.Size(342, 362);
+            this.Controls.Add(this.LabelNameForm);
             this.Controls.Add(this.CheckBoxSessionKey);
             this.Controls.Add(this.LabelSessionKey);
             this.Controls.Add(this.TextBoxSessionKey);
@@ -300,5 +312,6 @@
         private System.Windows.Forms.TextBox TextBoxSessionKey;
         private System.Windows.Forms.Label LabelSessionKey;
         private System.Windows.Forms.CheckBox CheckBoxSessionKey;
+        private System.Windows.Forms.Label LabelNameForm;
     }
 }

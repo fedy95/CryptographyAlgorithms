@@ -34,6 +34,10 @@
             this.KeyGenerationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.EncryptionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.DecryptionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rSAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.keyGenerationToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.encryptionToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.decryptionToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.infoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutCryptographyAlgorithmsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -53,7 +57,8 @@
             // algorithmToolStripMenuItem
             // 
             this.algorithmToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.elGamalToolStripMenuItem});
+            this.elGamalToolStripMenuItem,
+            this.rSAToolStripMenuItem});
             this.algorithmToolStripMenuItem.Name = "algorithmToolStripMenuItem";
             this.algorithmToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.algorithmToolStripMenuItem.Text = "Algorithm";
@@ -65,29 +70,62 @@
             this.EncryptionToolStripMenuItem,
             this.DecryptionToolStripMenuItem});
             this.elGamalToolStripMenuItem.Name = "elGamalToolStripMenuItem";
-            this.elGamalToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.elGamalToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.elGamalToolStripMenuItem.Text = "ElGamal";
+            this.elGamalToolStripMenuItem.Click += new System.EventHandler(this.ElGamalToolStripMenuItem_Click);
             // 
             // KeyGenerationToolStripMenuItem
             // 
             this.KeyGenerationToolStripMenuItem.Name = "KeyGenerationToolStripMenuItem";
             this.KeyGenerationToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.KeyGenerationToolStripMenuItem.Text = "Key generation";
-            this.KeyGenerationToolStripMenuItem.Click += new System.EventHandler(this.KeyGenerationToolStripMenuItem_Click);
+            this.KeyGenerationToolStripMenuItem.Click += new System.EventHandler(this.EGKeyGenerationToolStripMenuItem_Click);
             // 
             // EncryptionToolStripMenuItem
             // 
             this.EncryptionToolStripMenuItem.Name = "EncryptionToolStripMenuItem";
             this.EncryptionToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.EncryptionToolStripMenuItem.Text = "Encryption";
-            this.EncryptionToolStripMenuItem.Click += new System.EventHandler(this.EncryptionToolStripMenuItem_Click);
+            this.EncryptionToolStripMenuItem.Click += new System.EventHandler(this.EGEncryptionToolStripMenuItem_Click);
             // 
             // DecryptionToolStripMenuItem
             // 
             this.DecryptionToolStripMenuItem.Name = "DecryptionToolStripMenuItem";
             this.DecryptionToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.DecryptionToolStripMenuItem.Text = "Decryption";
-            this.DecryptionToolStripMenuItem.Click += new System.EventHandler(this.DecryptionToolStripMenuItem_Click);
+            this.DecryptionToolStripMenuItem.Click += new System.EventHandler(this.EGDecryptionToolStripMenuItem_Click);
+            // 
+            // rSAToolStripMenuItem
+            // 
+            this.rSAToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.keyGenerationToolStripMenuItem1,
+            this.encryptionToolStripMenuItem1,
+            this.decryptionToolStripMenuItem1});
+            this.rSAToolStripMenuItem.Name = "rSAToolStripMenuItem";
+            this.rSAToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.rSAToolStripMenuItem.Text = "RSA";
+            this.rSAToolStripMenuItem.Click += new System.EventHandler(this.RSAToolStripMenuItem_Click);
+            // 
+            // keyGenerationToolStripMenuItem1
+            // 
+            this.keyGenerationToolStripMenuItem1.Name = "keyGenerationToolStripMenuItem1";
+            this.keyGenerationToolStripMenuItem1.Size = new System.Drawing.Size(153, 22);
+            this.keyGenerationToolStripMenuItem1.Text = "Key generation";
+            this.keyGenerationToolStripMenuItem1.Click += new System.EventHandler(this.RSAKeyGenerationToolStripMenuItem_Click);
+            // 
+            // encryptionToolStripMenuItem1
+            // 
+            this.encryptionToolStripMenuItem1.Name = "encryptionToolStripMenuItem1";
+            this.encryptionToolStripMenuItem1.Size = new System.Drawing.Size(153, 22);
+            this.encryptionToolStripMenuItem1.Text = "Encryption";
+            this.encryptionToolStripMenuItem1.Click += new System.EventHandler(this.RSAEncryptionToolStripMenuItem_Click);
+            // 
+            // decryptionToolStripMenuItem1
+            // 
+            this.decryptionToolStripMenuItem1.Name = "decryptionToolStripMenuItem1";
+            this.decryptionToolStripMenuItem1.Size = new System.Drawing.Size(153, 22);
+            this.decryptionToolStripMenuItem1.Text = "Decryption";
+            this.decryptionToolStripMenuItem1.Click += new System.EventHandler(this.RSADecryptionToolStripMenuItem_Click);
             // 
             // infoToolStripMenuItem
             // 
@@ -130,5 +168,9 @@
         private System.Windows.Forms.ToolStripMenuItem DecryptionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem infoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem AboutCryptographyAlgorithmsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rSAToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem keyGenerationToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem encryptionToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem decryptionToolStripMenuItem1;
     }
 }

@@ -10,3 +10,4 @@ e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyA
 e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyAlgorithms.Properties.Resources.resources
 e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyAlgorithms.StartForm.resources
 e:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyAlgorithms.csproj.GenerateResource.Cache
+E:\_github\CryptographyAlgorithms\CryptographyAlgorithms\obj\Debug\CryptographyAlgorithms.RSAKeyGeneration.resources

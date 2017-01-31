@@ -9,3 +9,6 @@ Elgamal encryption consists of three components:
  1) the keys generator (public and private keys);
  2) the encryption algorithm;
  3) the decryption algorithm.
+
+RSA:
+ 1) the keys generator (public and private keys);
